@@ -1,0 +1,7 @@
+C:\itea\Lesson03\Lesson03\Lesson03\bin\Debug\Lesson03.exe.config
+C:\itea\Lesson03\Lesson03\Lesson03\bin\Debug\Lesson03.exe
+C:\itea\Lesson03\Lesson03\Lesson03\bin\Debug\Lesson03.pdb
+C:\itea\Lesson03\Lesson03\Lesson03\obj\Debug\Lesson03.csprojAssemblyReference.cache
+C:\itea\Lesson03\Lesson03\Lesson03\obj\Debug\Lesson03.csproj.CoreCompileInputs.cache
+C:\itea\Lesson03\Lesson03\Lesson03\obj\Debug\Lesson03.exe
+C:\itea\Lesson03\Lesson03\Lesson03\obj\Debug\Lesson03.pdb
