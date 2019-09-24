@@ -53,17 +53,31 @@ namespace Lesson03
 
             int b = 0;
             int c = 0;
-            var number = 0;
+            var number1 = 0;
+            var number2 = 0;
+            var number3 = 0;
 
-            foreach (var t in digit)
+
+            do
             {
-                number = (int)Char.GetNumericValue(t);
+                number1 = value % 10;
+                number2 = value / 10;
+                value = number2;
 
-                if (number % 2 == 0) b = b + number;
-                if (number % 3 == 0) c++;
-            }
+                if (number1 % 2 == 0) b = b + number1;
+                if (number1 % 3 == 0) c++;
+                number3++;
+            } while (value>0);
 
-            Console.WriteLine($"Count of digits in a number is: {digit.Length}");
+            //foreach (var t in digit)
+            //{
+            //    number = (int)Char.GetNumericValue(t);
+
+            //    if (number % 2 == 0) b = b + number;
+            //    if (number % 3 == 0) c++;
+            //}
+
+            Console.WriteLine($"Count of digits in a number is: {number3}");
             Console.WriteLine($"Sum of even numbers is: {b}");
             Console.WriteLine($"Count of digits which is multiple of 3 is: {c}");
 
